@@ -1,0 +1,144 @@
+/* for all  */
+*{padding: 0; margin: 0; box-sizing: border-box;}
+html{font-family: 'roboto'; font-size: 16px; color: #333; background-color: white;}
+
+section{
+padding: 40px 0px;
+}
+h2{
+text-transform: none;
+font-size: 1.6rem;
+margin-bottom: 15px;
+letter-spacing: 2px;
+text-align: center;
+}
+hr{
+background-color:  rgb(40, 22, 199);
+width: 100px;
+border: solid 2px rgb(40, 22, 199);
+margin: 20px auto;
+}
+
+
+/* sec 6 >> offers */
+#offers{ 
+background-color: rgb(82, 6, 117);
+}
+#offers h2{
+margin-bottom: 10px;
+color: white;
+}
+.card{
+margin-left: 20px;
+margin-right: 20px;
+min-height:  100%; ;
+}
+.ofhed{
+height: 100%;
+background-color: rgb(202, 70, 174);
+width: 100%;
+
+}
+.ofhed p{
+padding: 10px;
+}
+.hp ,.hper{
+display: inline-block;
+color: rgb(255, 255, 255);
+}
+.hp{
+font-size: 40px;
+padding-left: 20px;
+}
+
+.mdhed{
+height: 100%;
+margin-top: 3px;
+margin-bottom: 3px;
+background-color: #FFFFFFFF;
+width: 100%;
+}
+.mdhed table{
+padding: 15px;
+}
+
+.mdhed i{
+color: rgb(17, 0, 255);
+margin-right: 20px;
+}
+.mdhed tr{
+display: block;
+width: 100%;
+padding-top: 3px;
+font-size: 14px;
+line-height: 190%;
+padding-left: 10px;
+}
+
+.fothed{
+height: 100%;
+background-color: rgb(245, 220, 237);
+width: 100%;
+}
+.card h3{
+
+margin: 10px;
+padding-top: 10px;
+position: relative;
+color:rgb(25, 0, 255) ;
+}
+.fothed a{
+border: solid rgb(25, 0, 255) 1px;
+color: rgb(0, 47, 255);
+text-decoration: none;
+margin-right: 25px;
+padding: 10px 20px;
+border-radius: 30px;
+text-align: center;
+display: inline-block;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-left: 28%;
+}
+.fothed a:hover{
+color: white;   
+background-color: rgb(38, 0, 255);
+}
+
+
+
+
+/* sec 7 >> contact */
+
+
+
+label{
+color: orange;
+font-size: 18px;
+}
+input[type=text] , input[type=email] , select , textarea{
+width: 100%;
+padding: 7px;
+margin-bottom: 15px;
+border: solid #ccc 2px;
+border-radius: 5px;
+}
+input[type=checkbox]{
+margin-bottom: 30px;
+}
+
+button{
+border: solid orange 2px;
+padding: 20px 40px;
+background-color: orange;
+color: white;
+border-radius: 20px;
+font-size: 24px;
+}
+button:hover{
+background-color: transparent;
+color: rgb(55, 0, 255);
+}
+
+
+
